@@ -2,7 +2,6 @@
 
 namespace Drupal\Tests\groups_group_subscribe_formatter\ExistingSite;
 
-use Drupal\Core\Url;
 use weitzman\DrupalTestTraits\ExistingSiteBase;
 
 /**
