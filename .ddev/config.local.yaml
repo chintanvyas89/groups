@@ -1,0 +1,13 @@
+hooks:
+  post-start:
+    # Private files directory.
+    - exec: mkdir /var/www/private
+
+    # Install profile
+    - exec: drush site-install server -y --existing-config
+
+    # Compile theme
+    - exec-host: ddev robo theme:compile
+
+    # Generate one-time login link
+    - exec: drush uli
