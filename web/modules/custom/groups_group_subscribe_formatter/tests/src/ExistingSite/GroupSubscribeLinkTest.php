@@ -11,7 +11,7 @@ use weitzman\DrupalTestTraits\ExistingSiteBase;
 class GroupSubscribeLinkTest extends ExistingSiteBase {
 
   /**
-   * An example test method; note that Drupal API's and Mink are available.
+   * A method to check the message and link to subscribe the group.
    *
    * @throws \Drupal\Core\Entity\EntityStorageException
    * @throws \Drupal\Core\Entity\EntityMalformedException
