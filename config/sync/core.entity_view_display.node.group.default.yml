@@ -1,0 +1,36 @@
+uuid: 976b93cb-f9bb-4803-9d44-ce939460c760
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.group.body
+    - node.type.group
+  module:
+    - groups_group_subscribe_formatter
+    - text
+    - user
+id: node.group.default
+targetEntityType: node
+bundle: group
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  og_group:
+    weight: 2
+    type: custom_og_group_subscribe
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

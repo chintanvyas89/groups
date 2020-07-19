@@ -1,0 +1,18 @@
+uuid: bb1653df-2d1a-4f47-b83d-06f9d8417a5d
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Group
+type: group
+description: 'A Group content type acts as a group.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

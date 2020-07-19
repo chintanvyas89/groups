@@ -1,0 +1,23 @@
+uuid: 4e6c6b1f-a148-40f1-9cbd-a0a1ed8cf875
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.group
+  module:
+    - text
+id: node.group.body
+field_name: body
+entity_type: node
+bundle: group
+label: 'Group description'
+description: 'A brief introduction/details about group.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

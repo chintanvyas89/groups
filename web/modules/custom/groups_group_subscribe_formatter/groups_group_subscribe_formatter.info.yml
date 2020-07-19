@@ -1,0 +1,10 @@
+name: Custom Groups subscribe formatter
+description: A custom formatter for Groups subscribe formatter.
+package: Custome
+
+core_version_requirement: ^8.8 || ^9
+type: module
+php: 7.1
+
+dependencies:
+  - drupal:og

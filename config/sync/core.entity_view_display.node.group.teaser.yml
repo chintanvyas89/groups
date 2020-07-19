@@ -1,0 +1,38 @@
+uuid: 43e7f416-061c-4d33-8c56-c1c46e5da966
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.group.body
+    - node.type.group
+  module:
+    - groups_group_subscribe_formatter
+    - text
+    - user
+id: node.group.teaser
+targetEntityType: node
+bundle: group
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 1
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  og_group:
+    weight: 2
+    type: custom_og_group_subscribe
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }
